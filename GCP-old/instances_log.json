@@ -1,0 +1,272 @@
+[
+  {
+    "insertId": "mr3p9xf84hvw0",
+    "jsonPayload": {
+      "actor": {
+        "user": "maximb@cloudnow.co.il"
+      },
+      "event_subtype": "compute.instances.stop",
+      "event_timestamp_us": "1493796744477348",
+      "event_type": "GCE_OPERATION_DONE",
+      "operation": {
+        "id": "7263292923949889926",
+        "name": "operation-1493796713668-54e99a67c1da0-5ade0fa7-75d796f7",
+        "type": "operation",
+        "zone": "europe-west1-b"
+      },
+      "resource": {
+        "id": "838637923515712054",
+        "name": "max-test",
+        "type": "instance",
+        "zone": "europe-west1-b"
+      },
+      "trace_id": "operation-1493796713668-54e99a67c1da0-5ade0fa7-75d796f7",
+      "version": "1.2"
+    },
+    "labels": {
+      "compute.googleapis.com/resource_id": "838637923515712054",
+      "compute.googleapis.com/resource_name": "max-test",
+      "compute.googleapis.com/resource_type": "instance",
+      "compute.googleapis.com/resource_zone": "europe-west1-b"
+    },
+    "logName": "projects/cloudnow-labs/logs/compute.googleapis.com%2Factivity_log",
+    "resource": {
+      "labels": {
+        "instance_id": "838637923515712054",
+        "project_id": "cloudnow-labs",
+        "zone": "europe-west1-b"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "timestamp": "2017-05-03T07:32:24.477348Z"
+  },
+  {
+    "insertId": "1do10krf7o9mrq",
+    "jsonPayload": {
+      "actor": {
+        "user": "maximb@cloudnow.co.il"
+      },
+      "event_subtype": "compute.instances.stop",
+      "event_timestamp_us": "1493796714069506",
+      "event_type": "GCE_API_CALL",
+      "ip_address": "",
+      "operation": {
+        "id": "7263292923949889926",
+        "name": "operation-1493796713668-54e99a67c1da0-5ade0fa7-75d796f7",
+        "type": "operation",
+        "zone": "europe-west1-b"
+      },
+      "request": {
+        "body": "null",
+        "url": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/max-test/stop?alt=json"
+      },
+      "resource": {
+        "id": "838637923515712054",
+        "name": "max-test",
+        "type": "instance",
+        "zone": "europe-west1-b"
+      },
+      "trace_id": "operation-1493796713668-54e99a67c1da0-5ade0fa7-75d796f7",
+      "user_agent": "google-cloud-sdk gcloud/153.0.0 command/gcloud.compute.instances.stop invocation-id/49108cb2f08f49b9bd62b0f45a8d86b8 environment/None environment-version/None interactive/True python/2.7.13 (Linux 4.10.0-20-generic),gzip(gfe)",
+      "version": "1.2"
+    },
+    "labels": {
+      "compute.googleapis.com/resource_id": "838637923515712054",
+      "compute.googleapis.com/resource_name": "max-test",
+      "compute.googleapis.com/resource_type": "instance",
+      "compute.googleapis.com/resource_zone": "europe-west1-b"
+    },
+    "logName": "projects/cloudnow-labs/logs/compute.googleapis.com%2Factivity_log",
+    "resource": {
+      "labels": {
+        "instance_id": "838637923515712054",
+        "project_id": "cloudnow-labs",
+        "zone": "europe-west1-b"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "timestamp": "2017-05-03T07:31:54.069506Z"
+  },
+  {
+    "insertId": "1d4hdrgf7nbuq4",
+    "jsonPayload": {
+      "actor": {
+        "user": "maximb@cloudnow.co.il"
+      },
+      "event_subtype": "compute.instances.stop",
+      "event_timestamp_us": "1493796698321841",
+      "event_type": "GCE_OPERATION_DONE",
+      "operation": {
+        "id": "3221276159184746963",
+        "name": "operation-1493796668093-54e99a3c4b249-b41e7fd6-30ea3cad",
+        "type": "operation",
+        "zone": "europe-west1-b"
+      },
+      "resource": {
+        "id": "5612646578718214113",
+        "name": "ansible-master",
+        "type": "instance",
+        "zone": "europe-west1-b"
+      },
+      "trace_id": "operation-1493796668093-54e99a3c4b249-b41e7fd6-30ea3cad",
+      "version": "1.2"
+    },
+    "labels": {
+      "compute.googleapis.com/resource_id": "5612646578718214113",
+      "compute.googleapis.com/resource_name": "ansible-master",
+      "compute.googleapis.com/resource_type": "instance",
+      "compute.googleapis.com/resource_zone": "europe-west1-b"
+    },
+    "logName": "projects/cloudnow-labs/logs/compute.googleapis.com%2Factivity_log",
+    "resource": {
+      "labels": {
+        "instance_id": "5612646578718214113",
+        "project_id": "cloudnow-labs",
+        "zone": "europe-west1-b"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "timestamp": "2017-05-03T07:31:38.321841Z"
+  },
+  {
+    "insertId": "10cje4cf21uvv3",
+    "jsonPayload": {
+      "actor": {
+        "user": "maximb@cloudnow.co.il"
+      },
+      "event_subtype": "compute.instances.stop",
+      "event_timestamp_us": "1493796668453564",
+      "event_type": "GCE_API_CALL",
+      "ip_address": "",
+      "operation": {
+        "id": "3221276159184746963",
+        "name": "operation-1493796668093-54e99a3c4b249-b41e7fd6-30ea3cad",
+        "type": "operation",
+        "zone": "europe-west1-b"
+      },
+      "request": {
+        "body": "null",
+        "url": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/ansible-master/stop?alt=json"
+      },
+      "resource": {
+        "id": "5612646578718214113",
+        "name": "ansible-master",
+        "type": "instance",
+        "zone": "europe-west1-b"
+      },
+      "trace_id": "operation-1493796668093-54e99a3c4b249-b41e7fd6-30ea3cad",
+      "user_agent": "google-cloud-sdk gcloud/153.0.0 command/gcloud.compute.instances.stop invocation-id/03392deb0a3240efbe135e37cf3ef594 environment/None environment-version/None interactive/True python/2.7.13 (Linux 4.10.0-20-generic),gzip(gfe)",
+      "version": "1.2"
+    },
+    "labels": {
+      "compute.googleapis.com/resource_id": "5612646578718214113",
+      "compute.googleapis.com/resource_name": "ansible-master",
+      "compute.googleapis.com/resource_type": "instance",
+      "compute.googleapis.com/resource_zone": "europe-west1-b"
+    },
+    "logName": "projects/cloudnow-labs/logs/compute.googleapis.com%2Factivity_log",
+    "resource": {
+      "labels": {
+        "instance_id": "5612646578718214113",
+        "project_id": "cloudnow-labs",
+        "zone": "europe-west1-b"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "timestamp": "2017-05-03T07:31:08.453564Z"
+  },
+  {
+    "insertId": "u1f0yf818jrj",
+    "jsonPayload": {
+      "actor": {
+        "user": "maximb@cloudnow.co.il"
+      },
+      "event_subtype": "compute.instances.stop",
+      "event_timestamp_us": "1493796492035625",
+      "event_type": "GCE_OPERATION_DONE",
+      "operation": {
+        "id": "1527487790905047171",
+        "name": "operation-1493796460046-54e99975e26b0-9193a05c-0e4f92d3",
+        "type": "operation",
+        "zone": "europe-west1-b"
+      },
+      "resource": {
+        "id": "5612646578718214113",
+        "name": "ansible-master",
+        "type": "instance",
+        "zone": "europe-west1-b"
+      },
+      "trace_id": "operation-1493796460046-54e99975e26b0-9193a05c-0e4f92d3",
+      "version": "1.2"
+    },
+    "labels": {
+      "compute.googleapis.com/resource_id": "5612646578718214113",
+      "compute.googleapis.com/resource_name": "ansible-master",
+      "compute.googleapis.com/resource_type": "instance",
+      "compute.googleapis.com/resource_zone": "europe-west1-b"
+    },
+    "logName": "projects/cloudnow-labs/logs/compute.googleapis.com%2Factivity_log",
+    "resource": {
+      "labels": {
+        "instance_id": "5612646578718214113",
+        "project_id": "cloudnow-labs",
+        "zone": "europe-west1-b"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "timestamp": "2017-05-03T07:28:12.035625Z"
+  },
+  {
+    "insertId": "ln5zc6fllyjxc",
+    "jsonPayload": {
+      "actor": {
+        "user": "maximb@cloudnow.co.il"
+      },
+      "event_subtype": "compute.instances.stop",
+      "event_timestamp_us": "1493796460415674",
+      "event_type": "GCE_API_CALL",
+      "ip_address": "",
+      "operation": {
+        "id": "1527487790905047171",
+        "name": "operation-1493796460046-54e99975e26b0-9193a05c-0e4f92d3",
+        "type": "operation",
+        "zone": "europe-west1-b"
+      },
+      "request": {
+        "body": "null",
+        "url": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/ansible-master/stop?alt=json"
+      },
+      "resource": {
+        "id": "5612646578718214113",
+        "name": "ansible-master",
+        "type": "instance",
+        "zone": "europe-west1-b"
+      },
+      "trace_id": "operation-1493796460046-54e99975e26b0-9193a05c-0e4f92d3",
+      "user_agent": "google-cloud-sdk gcloud/153.0.0 command/gcloud.compute.instances.stop invocation-id/b4b666a038e74482895f76d228c9bf56 environment/None environment-version/None interactive/True python/2.7.13 (Linux 4.10.0-20-generic),gzip(gfe)",
+      "version": "1.2"
+    },
+    "labels": {
+      "compute.googleapis.com/resource_id": "5612646578718214113",
+      "compute.googleapis.com/resource_name": "ansible-master",
+      "compute.googleapis.com/resource_type": "instance",
+      "compute.googleapis.com/resource_zone": "europe-west1-b"
+    },
+    "logName": "projects/cloudnow-labs/logs/compute.googleapis.com%2Factivity_log",
+    "resource": {
+      "labels": {
+        "instance_id": "5612646578718214113",
+        "project_id": "cloudnow-labs",
+        "zone": "europe-west1-b"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "timestamp": "2017-05-03T07:27:40.415674Z"
+  }
+]

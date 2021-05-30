@@ -1,0 +1,2 @@
+tr-single-maximb-max-stp-test	172.18.0.52
+tr-single-maximb-my-test123	172.18.0.55

@@ -1,0 +1,23 @@
+- name: ans-instance-group
+  hosts: localhost
+  gather_facts: False
+  connection: local
+  vars:
+    service_account_email: ansible-cloudnow@cloudnow-labs.iam.gserviceaccount.com
+    credentials_file: /etc/ansible/cloudnow-labs-8feab535e6dc.json
+    project_id: cloudnow-labs
+
+  tasks:
+    - name: Create MIG
+      gce_mig:
+        name: ansible-create-group
+        zone: us-central1-c
+        state: present
+        size: 3
+        template: ans-temp
+        service_account_email: "{{ service_account_email }}"
+        credentials_file: "{{ credentials_file }}"
+        project_id: "{{ project_id }}"
+        #named_ports:
+        #- name: http
+          #port: 80

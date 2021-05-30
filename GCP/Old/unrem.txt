@@ -1,0 +1,7 @@
+Your instances are up for more than 5 days and can not be terminated automatically, please make sure to terminate it ASAP.
+If you still need it, please talk to Diana or Amit.
+
+The list of the instances:
+Name                                            	IP                       	State          	Up Since       
+tr-single-maximb-max-stp-tst2      	172.18.0.53              	Stopped     	2017-05-11T00:51:40
+tr-single-maximb-max-stp-tst3      	172.18.0.54              	Stopped     	2017-05-14T23:39:10

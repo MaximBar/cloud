@@ -1,0 +1,7 @@
+Hi, 
+Please see attached the list of stopped instances on GCP that are going to be terminated in 2 days from now.
+If you still need any of these machine, please talk to Diana or Amit.
+
+Thank you,
+Infrastructure Team
+

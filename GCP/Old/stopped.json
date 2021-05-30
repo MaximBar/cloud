@@ -1,0 +1,1981 @@
+[
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:24:20.397-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-03319d73a08023b32--dev-xvda-5124021e",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-03319d73a08023b32--dev-xvda-5124021e",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-03319d73a08023b32--dev-xvdf-bcdd6b00",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-03319d73a08023b32--dev-xvdf-bcdd6b00",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3493029266945401596",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-4",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "docker-dev-pwd-us-udi-image",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.42",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/docker-dev-pwd-us-udi-image",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": true,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:08:38.662-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "sda1",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure",
+          "https://www.googleapis.com/compute/v1/projects/windows-cloud/global/licenses/windows-server-2008-r2-dc"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-73423de7-c-0-31008ec7",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3519026858606913162",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-16",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "ec2amaz-ioi97ml-b07d49aa",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.47",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ec2amaz-ioi97ml-b07d49aa",
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "32m9l8PlLfg=",
+      "items": [
+        "sg-for-instance-i-i-b9451e7c"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:26:29.353-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-080d15347adae9cc1--dev-xvda-838938b8",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-080d15347adae9cc1--dev-xvda-838938b8",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-080d15347adae9cc1--dev-xvdf-72f18fd5",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-080d15347adae9cc1--dev-xvdf-72f18fd5",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "8341669176553955963",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "grc-new2-image",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.33",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/grc-new2-image",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:16:40.093-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-0a3ea9d2d42689c2d--dev-xvda-2dad0ef4",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0a3ea9d2d42689c2d--dev-xvda-2dad0ef4",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-0a3ea9d2d42689c2d--dev-xvdf-693205d0",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0a3ea9d2d42689c2d--dev-xvdf-693205d0",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7281509319044162728",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-8",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "grc-predix-new-image",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.48",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/grc-predix-new-image",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": true,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-18T01:32:32.403-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "sda1",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-015ec6653ec5a7fee--dev-xvda-da4b02b2",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-015ec6653ec5a7fee--dev-xvdf-ad249940",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1465059260119937487",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "-i-j1dfVRyQ=",
+      "items": [
+        {
+          "key": "serial-port-enable",
+          "value": "true"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "ip-172-16-1-194-da117d76",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.9",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ip-172-16-1-194-da117d76",
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "VRCAnZHIOUU=",
+      "items": [
+        "sg-for-instance-i-i-015ec6653ec5a7fee-976ba27d"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": true,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-18T01:05:47.411-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "sda1",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-2e534ce8--dev-xvda-35c1da3c",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-2e534ce8--dev-xvdf-0b3be70c",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "8003274278170031668",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "ip-172-16-1-58-9d5fa1ae",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.3",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ip-172-16-1-58-9d5fa1ae",
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "hBN_zQSUZMw=",
+      "items": [
+        "sg-for-instance-i-i-644f303d"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": true,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-19T01:08:20.160-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "sda1",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0ba66a0ec061bc327--dev-xvda1-43966aa9",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0ba66a0ec061bc327--dev-xvdf-c0822c56",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "2980641180361597979",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-4",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "ip-172-16-1-71-58d4adf8",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.35",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ip-172-16-1-71-58d4adf8",
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "JSKf5A4IvpU=",
+      "items": [
+        "sg-for-instance-i-i-0ba66a0ec061bc327-c31a4dd3"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-22T23:43:31.553-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "linux-srv",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-7"
+        ],
+        "mode": "READ_WRITE",
+        "source": "linux-srv",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3791035791821632509",
+    "kind": "compute#instance",
+    "machineType": "g1-small",
+    "metadata": {
+      "fingerprint": "-i-j1dfVRyQ=",
+      "items": [
+        {
+          "key": "serial-port-enable",
+          "value": "true"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "linux-srv",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.142.0.2",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/default"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/linux-srv",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T23:55:21.478-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-7cec8fba--dev-xvda-83aecf0e",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-7cec8fba--dev-xvda-83aecf0e",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-7cec8fba--dev-xvdf-f722dfc3",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-7cec8fba--dev-xvdf-f722dfc3",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1931702470395689655",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "nexus3",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.22",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/nexus3",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "VRDVf_FX6XU=",
+      "items": [
+        "nexus"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:25:28.278-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-0cd06dc1d4e2f4f45--dev-xvda-6c26c9e1",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0cd06dc1d4e2f4f45--dev-xvda-6c26c9e1",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-0cd06dc1d4e2f4f45--dev-xvdb-7277e67f",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0cd06dc1d4e2f4f45--dev-xvdb-7277e67f",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "8903870658909495992",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "openvpn-snapshot-image",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.10",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/openvpn-snapshot-image",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T23:29:14.175-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-7337407f--dev-xvda-58888c75",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-7337407f--dev-xvda-58888c75",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5680253332529971414",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "sonar",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.30",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/sonar",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:31:33.972-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-0aa3b10828ea4cd69--dev-xvda-bf397e6b",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0aa3b10828ea4cd69--dev-xvda-bf397e6b",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-0aa3b10828ea4cd69--dev-xvdb-b5ebc3f8",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0aa3b10828ea4cd69--dev-xvdb-b5ebc3f8",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1227005874490499882",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "theta-undockerized-rhel7-2-image",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.36",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/theta-undockerized-rhel7-2-image",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T06:57:14.330-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-0c6b2bd1d86c7f3cc--dev-xvda-ba7d2f8f",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0c6b2bd1d86c7f3cc--dev-xvda-ba7d2f8f",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-0c6b2bd1d86c7f3cc--dev-xvdf-846305f0",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0c6b2bd1d86c7f3cc--dev-xvdf-846305f0",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "397887791189650262",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "thetaray-image-rhel-1-12-5",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.37",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/thetaray-image-rhel-1-12-5",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T22:51:12.259-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-0c6c27276e775778e--dev-xvda-2180e6c5",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0c6c27276e775778e--dev-xvda-2180e6c5",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-0c6c27276e775778e--dev-xvdf-86041658",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0c6c27276e775778e--dev-xvdf-86041658",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3878062536614841248",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "thetaray-image-rhel-1-13-0-new",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.17",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/thetaray-image-rhel-1-13-0-new",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:21:40.638-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-069356ed815e18767--dev-xvda-55687bef",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-069356ed815e18767--dev-xvda-55687bef",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-069356ed815e18767--dev-xvdf-912907f0",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-069356ed815e18767--dev-xvdf-912907f0",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7404091091581068700",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "thetaray-image-rhel-17-3-0-java",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.18",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/thetaray-image-rhel-17-3-0-java",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:27:30.683-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-07c864977529b25ec--dev-xvda-b67795a4",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-07c864977529b25ec--dev-xvda-b67795a4",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-07c864977529b25ec--dev-xvdf-ce7d989c",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-07c864977529b25ec--dev-xvdf-ce7d989c",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "822867752792547902",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "thetaray-image-ubuntu-1-12-5",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.44",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/thetaray-image-ubuntu-1-12-5",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:19:28.489-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-028890859cf569863--dev-xvda-29065a91",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-028890859cf569863--dev-xvda-29065a91",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-028890859cf569863--dev-xvdf-f80ef9e2",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-028890859cf569863--dev-xvdf-f80ef9e2",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7074981899605828608",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "thetaray-image-ubuntu-1-13-0",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.16",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/thetaray-image-ubuntu-1-13-0",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T07:18:06.910-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-0a043bcec9a97313c--dev-xvda-89bede32",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0a043bcec9a97313c--dev-xvda-89bede32",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-0a043bcec9a97313c--dev-xvdf-a9119037",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0a043bcec9a97313c--dev-xvdf-a9119037",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1697060624511722610",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "thetaray-image-ubuntu-17-3-0-java",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.43",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/thetaray-image-ubuntu-17-3-0-java",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T23:18:20.275-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-0eda6806c1923b6a1--dev-xvda-fe52ad94",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0eda6806c1923b6a1--dev-xvda-fe52ad94",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-0eda6806c1923b6a1--dev-xvdf-ee8fd08a",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0eda6806c1923b6a1--dev-xvdf-ee8fd08a",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4739026586939786564",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "tr-image-ubuntu",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.39",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/tr-image-ubuntu",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-05-11T00:44:16.272-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "tr-single-maximb-max-stp-test",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "persistent-disk-1",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "tr-single-maximb-max-stp-test-disk1-60zbcdki",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "2523291931467425983",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "tr-single-maximb-max-stp-test",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.52",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/tr-single-maximb-max-stp-test",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "Sd4j7mjDVBo=",
+      "items": [
+        "stopped-on-may-19-2017-at-10-26-30",
+        "test-tag1"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-05-11T00:51:40.346-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "tr-single-maximb-max-stp-tst2",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "persistent-disk-1",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "tr-single-maximb-max-stp-tst2-disk1-g1wx20bt",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "6515049203683141347",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "tr-single-maximb-max-stp-tst2",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.53",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/tr-single-maximb-max-stp-tst2",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "9ob61Yc0Wio=",
+      "items": [
+        "do-not-delete"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-05-14T23:39:10.353-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "tr-single-maximb-max-stp-tst3",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "persistent-disk-1",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "tr-single-maximb-max-stp-tst3-disk1-ob8552tf",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "6964381389335884770",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "tr-single-maximb-max-stp-tst3",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.54",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/tr-single-maximb-max-stp-tst3",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "qpuWJ5r3jJI=",
+      "items": [
+        "do-not-stop"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-05-15T23:57:12.352-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "tr-single-maximb-my-test123",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "persistent-disk-1",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "tr-single-maximb-my-test123-disk1-qj0l8b76",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5850435776637508648",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "tr-single-maximb-my-test123",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.55",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/tr-single-maximb-my-test123",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "8acdsfRwJdc=",
+      "items": [
+        "stopped-on",
+        "stopped-on-may-19-2017-at-10-26-30"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-25T23:49:15.277-07:00",
+    "disks": [
+      {
+        "autoDelete": false,
+        "boot": true,
+        "deviceName": "vol-i-0ccb1453--dev-xvda-389cf1c7",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0ccb1453--dev-xvda-389cf1c7",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "vol-i-0ccb1453--dev-xvdf-04e80611",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "vol-i-0ccb1453--dev-xvdf-04e80611",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7795048985167526917",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-8",
+    "metadata": {
+      "fingerprint": "s9USpCvsdoo=",
+      "kind": "compute#metadata"
+    },
+    "name": "transferdockerstosftp",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "rnd-network",
+        "networkIP": "172.18.0.13",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/rnd-subnet"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/transferdockerstosftp",
+    "serviceAccounts": [
+      {
+        "email": "751514679109-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-east1-b"
+  }
+]

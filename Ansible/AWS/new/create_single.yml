@@ -1,0 +1,25 @@
+- hosts: localhost
+  vars:
+    create: true
+    owner: "{{ owner }}"
+    machine_prefix: dev-
+    ec2_tag_UserEmail: "{{ ec2_tag_UserEmail }}"
+    ec2_tag_Name: "{{ aws_tag_name_prefix }}"
+    ec2_tag_Type: "single"
+    node_ip_var: "node_ip"
+
+  roles:
+    - aws
+
+  post_tasks:
+    - set_fact: ec2_user=ec2-user
+      when: aws_os == 'rhel'
+    - set_fact: ec2_user=ubuntu
+      when: aws_os == 'ubuntu'
+    - debug: msg="EC2 user is {{ ec2_user }}"
+
+    - name: create hosts file
+      shell: "{{item}}"
+      with_items:
+        - "echo [single] > {{ playbook_dir }}/hosts.{{ owner }}"
+        - "echo {{ node_ip }} ssh_user={{ ec2_user }} >> {{ playbook_dir }}/hosts.{{ owner }}"

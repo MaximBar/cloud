@@ -1,0 +1,17 @@
+- name: Create nodes
+  include: create_instance.yml
+  vars:
+    ec2_tag_Name: "{{ aws_tag_name_prefix }}-node-{{ item }}"
+    ec2_tag_Type: "swarm-node"
+    node_ip_var: "node_ip_{{ item }}"
+  with_sequence: count={{ num_of_nodes }}
+
+# TEMP
+- set_fact:
+     db_ip: "{{ node_ip_1 }}"
+     master_ip: "{{ node_ip_2}}"
+     worker_ip: "{{ node_ip_3 }}"
+
+- name: add to hosts file
+  lineinfile: dest={{ playbook_dir }}/hosts.{{ owner }} line="{{ node_ip_{{ item }} }}""
+  with_sequence: count={{ num_of_nodes }}

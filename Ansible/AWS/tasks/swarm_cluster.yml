@@ -1,0 +1,61 @@
+- debug: msg="managers machines number is {{ num_of_managers }}, nodes machines number is {{ num_of_nodes }}, owner is {{ owner }}"
+
+- name: Create manager machines
+  include: create_instance.yml
+  vars:
+    ec2_tag_Name: "{{ aws_tag_name_prefix }}-manager-{{ manager_number }}"
+    ec2_tag_Type: "swarm-manager"
+    node_ip_var: "swarm_manager_ip"
+  with_sequence: count={{ num_of_managers }}
+  loop_control:
+      loop_var: manager_number
+
+- name: Create nodes
+  include: create_instance.yml
+  vars:
+    ec2_tag_Name: "{{ aws_tag_name_prefix }}-node-{{ node_number }}"
+    ec2_tag_Type: "swarm-node"
+    node_ip_var: "node_ip_{{ node_number }}"
+  with_sequence: count={{ num_of_nodes }}
+  loop_control:
+      loop_var: node_number
+
+- set_fact:
+     db_ip: "{{ node_ip_1 }}"
+     master_ip: "{{ node_ip_2}}"
+     worker_ip: "{{ node_ip_3 }}"
+  when: deploy_mode == "min"
+
+- set_fact:
+     db_ip: "{{ node_ip_1 }}"
+     master_ip: "{{ node_ip_2}}"
+     worker_ip: "{{ node_ip_3 }}"
+     report_ip: "{{ node_ip_4 }}"
+     dl_ip: "{{ node_ip_5}}"
+     worker2_ip: "{{ node_ip_6 }}"
+     worker3_ip: "{{ node_ip_7 }}"
+  when: deploy_mode == "rec"
+
+- set_fact:
+     db_ip: "{{ node_ip_1 }}"
+     master_ip: "{{ node_ip_2}}"
+     worker_ip: "{{ node_ip_3 }}"
+     report_ip: "{{ node_ip_4 }}"
+     dl_ip: "{{ node_ip_5}}"
+     worker2_ip: "{{ node_ip_6 }}"
+     worker3_ip: "{{ node_ip_7 }}"
+     app2_ip: "{{ node_ip_8 }}"
+     report2_ip: "{{ node_ip_9 }}"
+     dl2_ip: "{{ node_ip_10}}"
+     db2_ip: "{{ node_ip_11 }}"
+     master2_ip: "{{ node_ip_12 }}"
+  when: deploy_mode == "ha"
+
+- set_fact: ec2_user=ec2-user
+  when: aws_os == 'rhel'
+- set_fact: ec2_user=ubuntu
+  when: aws_os == 'ubuntu'
+- debug: msg="EC2 user is {{ ec2_user }}"
+
+- name: create hosts file
+  template: src="hosts_swarm_{{ deploy_mode }}.template" dest="{{ playbook_dir }}/hosts.{{ owner }}" force=yes

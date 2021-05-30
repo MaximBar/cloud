@@ -1,0 +1,23 @@
+- hosts: localhost
+  vars:
+    create_cluster: true
+    machine_prefix: dev-cluster
+    owner: "{{ owner }}"
+    ec2_tag_UserEmail: "{{ ec2_tag_UserEmail }}"
+    ec2_tag_Name: "{{ aws_tag_name_prefix }}"
+    ec2_tag_Type: "cluster"
+
+  pre_tasks:
+   - debug: msg="Deploy mode is {{ deploy_mode }}"
+   - set_fact:
+       num_of_managers: 1
+       num_of_nodes: 3
+     when: deploy_mode == "min"
+
+   - set_fact:
+       num_of_managers: 1
+       num_of_nodes: 7
+     when: deploy_mode == "rec"
+
+  roles:
+    - aws

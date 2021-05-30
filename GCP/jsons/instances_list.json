@@ -1,0 +1,1501 @@
+[
+  {
+    "cpuPlatform": "Intel Haswell",
+    "creationTimestamp": "2017-04-02T04:02:37.914-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-replicator-jagei-28e5737d",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-7d9798e8",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdg",
+        "index": 2,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-63c31a26",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdh",
+        "index": 3,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-1d02de8a",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdi",
+        "index": 4,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-af841cf0",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdj",
+        "index": 5,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-bb3dfb69",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdk",
+        "index": 6,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-718ab948",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdl",
+        "index": 7,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-8cdbc9b2",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdm",
+        "index": 8,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-00b27214",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdn",
+        "index": 9,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-824e66ad",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdo",
+        "index": 10,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-090060a1",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdp",
+        "index": 11,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-bd1c2480",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdq",
+        "index": 12,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-0aa1bfb9",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdr",
+        "index": 13,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-c848b088",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sds",
+        "index": 14,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-bc574586",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdt",
+        "index": 15,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-b6ddb318",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "898344956841518242",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "XZzx-hnHC68=",
+      "items": [
+        {
+          "key": "sshKeys",
+          "value": "ubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2D94+d7Y257vQVB8bYWxc/7wMEmkuwg2cW78ln1wMMRRyTwXpgIbzJ4TZflWSqJaT14s8CbkrJvJSl//tCXh5zNsW6BmuuhKDhtIw4r7LsXRqFoTCHzPTvZm8CLmPsTdao1ZJQyDHfG8YBFIXzXOpaNYNeVuvIBMne2g/33N/GH9X5q2g/CCBYdzaXVuckHBS9Fwj+uTzv1JcZRF7zbUsRVQab6KXucMx4uwE2ctoWgGGhMx9zPi4ByhWqMapD/bYgcyFzFa5VAroF1EbsVzTUkZqtgIyeGmrGpFNHVMBohqoJ7XUnJhCTp+RfLQXlBSUev33GMFbN4r54BUHCABb \n"
+        },
+        {
+          "key": "startup-script",
+          "value": "#!/bin/bash\nnslookup gcp.cloudendure.com | grep 52.200.207.112\n        OUT=$?\n        if [ $OUT -eq 0 ]; then\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"SUCCEEDED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/996bdc53-c04c-4cce-a0b4-efc0d30b9943/updateInitializationStep?replicatorToken=ce0ead88-092f-4249-9a5d-8ac470bcb29e\"\n        else\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"FAILED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/996bdc53-c04c-4cce-a0b4-efc0d30b9943/updateInitializationStep?replicatorToken=ce0ead88-092f-4249-9a5d-8ac470bcb29e\" --resolve gcp.cloudendure.com:443:52.200.207.112\n        fi\n        \nwget -O- https://gcp.cloudendure.com/http_commands_client.py | python - https://gcp.cloudendure.com/api/v12/ 7e8b610cde252f13bd9cd5ba941d3a29 ariel.ramraz@gmail.com\n"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "ce-replicator-jagei-28e5737d",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "35.185.20.178",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.142.0.4",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/default"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ce-replicator-jagei-28e5737d",
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "O-spkkeHO3Y=",
+      "items": [
+        "ce-replicator"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "cpuPlatform": "Intel Haswell",
+    "creationTimestamp": "2017-05-08T09:50:13.693-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-replicator-jagei-39d13132",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-ec889477",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdn",
+        "index": 2,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-99994c89",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdg",
+        "index": 3,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-ad6b20a2",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdo",
+        "index": 4,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-9f3c5404",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdl",
+        "index": 5,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-a1e7476a",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdh",
+        "index": 6,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-e9878767",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdm",
+        "index": 7,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-621a0e06",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdi",
+        "index": 8,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-6db0a87f",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdj",
+        "index": 9,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-07cc7dc4",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdk",
+        "index": 10,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-ee7a5f9e",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdp",
+        "index": 11,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-8614e72d",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdq",
+        "index": 12,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-2d292b98",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdr",
+        "index": 13,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-ce931d43",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sds",
+        "index": 14,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-dde3e0f6",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "510687900287704875",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "NdfRuh9gRHY=",
+      "items": [
+        {
+          "key": "sshKeys",
+          "value": "ubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2D94+d7Y257vQVB8bYWxc/7wMEmkuwg2cW78ln1wMMRRyTwXpgIbzJ4TZflWSqJaT14s8CbkrJvJSl//tCXh5zNsW6BmuuhKDhtIw4r7LsXRqFoTCHzPTvZm8CLmPsTdao1ZJQyDHfG8YBFIXzXOpaNYNeVuvIBMne2g/33N/GH9X5q2g/CCBYdzaXVuckHBS9Fwj+uTzv1JcZRF7zbUsRVQab6KXucMx4uwE2ctoWgGGhMx9zPi4ByhWqMapD/bYgcyFzFa5VAroF1EbsVzTUkZqtgIyeGmrGpFNHVMBohqoJ7XUnJhCTp+RfLQXlBSUev33GMFbN4r54BUHCABb \n"
+        },
+        {
+          "key": "startup-script",
+          "value": "#!/bin/bash\nif [ -n '' ]; then\n    echo https_proxy='' | sudo tee -a /etc/environment &> /dev/null\n    export https_proxy=''\n    echo Defaults env_keep = \"https_proxy\" | sudo tee -a /etc/sudoers &> /dev/null\nfi\nnslookup gcp.cloudendure.com | grep 52.200.207.112\n        OUT=$?\n        if [ $OUT -eq 0 ]; then\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"SUCCEEDED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/7d1e4501-9d0c-4d78-b0dc-6cc191c8fc18/updateInitializationStep?replicatorToken=e4d8ab54-4e7b-4528-a00d-ca85c5aefb42\"\n        else\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"FAILED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/7d1e4501-9d0c-4d78-b0dc-6cc191c8fc18/updateInitializationStep?replicatorToken=e4d8ab54-4e7b-4528-a00d-ca85c5aefb42\" --resolve gcp.cloudendure.com:443:52.200.207.112\n        fi\n        \nwget -O- https://gcp.cloudendure.com/http_commands_client.py | python - https://gcp.cloudendure.com/api/v12/ f7857650bbe495396e017ccf7561442d ariel.ramraz@gmail.com\n"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "ce-replicator-jagei-39d13132",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "35.185.86.166",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.142.0.10",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/default"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ce-replicator-jagei-39d13132",
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "O-spkkeHO3Y=",
+      "items": [
+        "ce-replicator"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "cpuPlatform": "Intel Haswell",
+    "creationTimestamp": "2017-04-02T02:59:41.981-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-replicator-jagei-5a427fd7",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-7b8e05da",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdg",
+        "index": 2,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-e83a3427",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdh",
+        "index": 3,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-b6947af9",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdi",
+        "index": 4,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-c4c18009",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdj",
+        "index": 5,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-2e210330",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdk",
+        "index": 6,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-4b7e6870",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdl",
+        "index": 7,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-2016e6fc",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdm",
+        "index": 8,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-8f8e1b94",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdn",
+        "index": 9,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-25da9e3e",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdo",
+        "index": 10,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-e0252cc6",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdp",
+        "index": 11,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-41483cea",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdq",
+        "index": 12,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-fe485185",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdr",
+        "index": 13,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-b89384f4",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sds",
+        "index": 14,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-8eed7a05",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdt",
+        "index": 15,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-a1988e4b",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1006526451359249762",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "G9dRIhhM7bk=",
+      "items": [
+        {
+          "key": "sshKeys",
+          "value": "ubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2D94+d7Y257vQVB8bYWxc/7wMEmkuwg2cW78ln1wMMRRyTwXpgIbzJ4TZflWSqJaT14s8CbkrJvJSl//tCXh5zNsW6BmuuhKDhtIw4r7LsXRqFoTCHzPTvZm8CLmPsTdao1ZJQyDHfG8YBFIXzXOpaNYNeVuvIBMne2g/33N/GH9X5q2g/CCBYdzaXVuckHBS9Fwj+uTzv1JcZRF7zbUsRVQab6KXucMx4uwE2ctoWgGGhMx9zPi4ByhWqMapD/bYgcyFzFa5VAroF1EbsVzTUkZqtgIyeGmrGpFNHVMBohqoJ7XUnJhCTp+RfLQXlBSUev33GMFbN4r54BUHCABb \n"
+        },
+        {
+          "key": "startup-script",
+          "value": "#!/bin/bash\nnslookup gcp.cloudendure.com | grep 52.200.207.112\n        OUT=$?\n        if [ $OUT -eq 0 ]; then\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"SUCCEEDED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/06e239ba-2a86-4e3b-9738-fbb9c29719c1/updateInitializationStep?replicatorToken=3a7d1c7a-9830-4b16-b769-44d12e4a1631\"\n        else\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"FAILED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/06e239ba-2a86-4e3b-9738-fbb9c29719c1/updateInitializationStep?replicatorToken=3a7d1c7a-9830-4b16-b769-44d12e4a1631\" --resolve gcp.cloudendure.com:443:52.200.207.112\n        fi\n        \nwget -O- https://gcp.cloudendure.com/http_commands_client.py | python - https://gcp.cloudendure.com/api/v12/ 1e9612a8524713b372c146cf7d7133a1 ariel.ramraz@gmail.com\n"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "ce-replicator-jagei-5a427fd7",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "104.196.68.216",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.142.0.3",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/default"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ce-replicator-jagei-5a427fd7",
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "O-spkkeHO3Y=",
+      "items": [
+        "ce-replicator"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "cpuPlatform": "Intel Haswell",
+    "creationTimestamp": "2017-04-02T05:16:15.935-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-replicator-jagei-6577181e",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-758c4914",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdg",
+        "index": 2,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-0deb90ee",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdh",
+        "index": 3,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-ba334ba9",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdi",
+        "index": 4,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-4ad5f8da",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdj",
+        "index": 5,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-b1e14fb4",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdk",
+        "index": 6,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-b0e6fdde",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdl",
+        "index": 7,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-eca6672a",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdm",
+        "index": 8,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-2efec37a",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdn",
+        "index": 9,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-85aaaf73",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdo",
+        "index": 10,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-e0233400",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdp",
+        "index": 11,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-94d98122",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdq",
+        "index": 12,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-61f65634",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdr",
+        "index": 13,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-ef292dff",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sds",
+        "index": 14,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-5a09a347",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdt",
+        "index": 15,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure",
+          "https://www.googleapis.com/compute/v1/projects/windows-cloud/global/licenses/windows-server-2008-r2-dc"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-d2c20aa9",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1424332623576913248",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "2NadTh3QrVw=",
+      "items": [
+        {
+          "key": "sshKeys",
+          "value": "amit_taller:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPJBE1F3MkfapkYzPKPICRuSY5GII76e2c76bWyww6wx5k554drpcpZCvb7ZGfVGaRhgY8KddQM9lljZYkJUIGQ= google-ssh {\"userName\":\"amit.taller@thetaray.com\",\"expireOn\":\"2017-04-23T13:08:13+0000\"}\nubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2D94+d7Y257vQVB8bYWxc/7wMEmkuwg2cW78ln1wMMRRyTwXpgIbzJ4TZflWSqJaT14s8CbkrJvJSl//tCXh5zNsW6BmuuhKDhtIw4r7LsXRqFoTCHzPTvZm8CLmPsTdao1ZJQyDHfG8YBFIXzXOpaNYNeVuvIBMne2g/33N/GH9X5q2g/CCBYdzaXVuckHBS9Fwj+uTzv1JcZRF7zbUsRVQab6KXucMx4uwE2ctoWgGGhMx9zPi4ByhWqMapD/bYgcyFzFa5VAroF1EbsVzTUkZqtgIyeGmrGpFNHVMBohqoJ7XUnJhCTp+RfLQXlBSUev33GMFbN4r54BUHCABb \n"
+        },
+        {
+          "key": "startup-script",
+          "value": "#!/bin/bash\nnslookup gcp.cloudendure.com | grep 52.200.207.112\n        OUT=$?\n        if [ $OUT -eq 0 ]; then\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"SUCCEEDED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/c118136b-1d20-437f-834d-76774b53c7b7/updateInitializationStep?replicatorToken=e742e77b-2864-4452-b59d-2ecd72f526c7\"\n        else\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"FAILED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/c118136b-1d20-437f-834d-76774b53c7b7/updateInitializationStep?replicatorToken=e742e77b-2864-4452-b59d-2ecd72f526c7\" --resolve gcp.cloudendure.com:443:52.200.207.112\n        fi\n        \nwget -O- https://gcp.cloudendure.com/http_commands_client.py | python - https://gcp.cloudendure.com/api/v12/ 654695228b1e6a5b6be329bf633902be ariel.ramraz@gmail.com\n"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "ce-replicator-jagei-6577181e",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "35.185.59.231",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.142.0.5",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/default"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ce-replicator-jagei-6577181e",
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "O-spkkeHO3Y=",
+      "items": [
+        "ce-replicator"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "cpuPlatform": "Intel Haswell",
+    "creationTimestamp": "2017-05-08T10:49:49.041-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-replicator-jagei-b119965b",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdj",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-b0056ca4",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdk",
+        "index": 2,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-244da61a",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdl",
+        "index": 3,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-b9c4f4bd",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdm",
+        "index": 4,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-d3b1f0f3",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 5,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-a79b6d8b",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdg",
+        "index": 6,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-8ecec2fd",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdh",
+        "index": 7,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-b06668ec",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdi",
+        "index": 8,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-1a9afdb0",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5495983906794312019",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "qMnMv5yZM8M=",
+      "items": [
+        {
+          "key": "sshKeys",
+          "value": "ubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2D94+d7Y257vQVB8bYWxc/7wMEmkuwg2cW78ln1wMMRRyTwXpgIbzJ4TZflWSqJaT14s8CbkrJvJSl//tCXh5zNsW6BmuuhKDhtIw4r7LsXRqFoTCHzPTvZm8CLmPsTdao1ZJQyDHfG8YBFIXzXOpaNYNeVuvIBMne2g/33N/GH9X5q2g/CCBYdzaXVuckHBS9Fwj+uTzv1JcZRF7zbUsRVQab6KXucMx4uwE2ctoWgGGhMx9zPi4ByhWqMapD/bYgcyFzFa5VAroF1EbsVzTUkZqtgIyeGmrGpFNHVMBohqoJ7XUnJhCTp+RfLQXlBSUev33GMFbN4r54BUHCABb \n"
+        },
+        {
+          "key": "startup-script",
+          "value": "#!/bin/bash\nif [ -n '' ]; then\n    echo https_proxy='' | sudo tee -a /etc/environment &> /dev/null\n    export https_proxy=''\n    echo Defaults env_keep = \"https_proxy\" | sudo tee -a /etc/sudoers &> /dev/null\nfi\nnslookup gcp.cloudendure.com | grep 52.200.207.112\n        OUT=$?\n        if [ $OUT -eq 0 ]; then\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"SUCCEEDED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/24f6066a-3ad0-48ed-9576-bf9e6506f2b6/updateInitializationStep?replicatorToken=9ac1ba44-6133-4de8-93ad-2e499cac42c9\"\n        else\n            curl -X POST -d '{\"name\":\"RESOLVING_MANAGEMENT_SERVER_ADDRESS\", \"message\":\"a\", \"status\":\"FAILED\"}' -H \"Content-Type: application/json\" \"https://gcp.cloudendure.com/api/v12/projects/247ce195-03b0-4b8d-b5ab-0feee31cc2dd/machines/24f6066a-3ad0-48ed-9576-bf9e6506f2b6/updateInitializationStep?replicatorToken=9ac1ba44-6133-4de8-93ad-2e499cac42c9\" --resolve gcp.cloudendure.com:443:52.200.207.112\n        fi\n        \nwget -O- https://gcp.cloudendure.com/http_commands_client.py | python - https://gcp.cloudendure.com/api/v12/ a2092e10f25bbf611ce2ae2b01c0163f ariel.ramraz@gmail.com\n"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "ce-replicator-jagei-b119965b",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "35.190.130.96",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.142.0.8",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/tr-rnd/regions/us-east1/subnetworks/default"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/ce-replicator-jagei-b119965b",
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "O-spkkeHO3Y=",
+      "items": [
+        "ce-replicator"
+      ]
+    },
+    "zone": "us-east1-b"
+  },
+  {
+    "cpuPlatform": "Intel Haswell",
+    "creationTimestamp": "2017-04-06T00:53:35.195-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-replicator-jagei-e87536e7",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-3479ea11",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdg",
+        "index": 2,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-22280dfc",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdh",
+        "index": 3,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-536fbd36",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdi",
+        "index": 4,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-0de71556",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdj",
+        "index": 5,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-1deeb2ab",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdk",
+        "index": 6,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-cac03faa",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdl",
+        "index": 7,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-88fe9f5c",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdm",
+        "index": 8,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-f1b2f08a",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdn",
+        "index": 9,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-f3d42f66",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdo",
+        "index": 10,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-d10fe263",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdp",
+        "index": 11,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-0baf9d2b",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdq",
+        "index": 12,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-47a819d5",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdr",
+        "index": 13,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-0c44c891",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sds",
+        "index": 14,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/cloudendure-billings/global/licenses/cloudendure"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-vol-jagei-3901489b",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4243353679824440593",

@@ -1,0 +1,20 @@
+[all:vars]
+ssh_user={{ ec2_user}}
+
+[swarm-managers]
+manager ansible_host={{ swarm_manager_ip }}
+
+[swarm-nodes]
+manager ansible_host={{ swarm_manager_ip }} node_role=app
+node1 ansible_host={{ db_ip }}  node_role=db
+node2 ansible_host={{ master_ip }}  node_role=master
+node3 ansible_host={{ worker_ip }}  node_role=worker
+node4 ansible_host={{ report_ip }}  node_role=report
+node5 ansible_host={{ dl_ip }}  node_role=dl
+node6 ansible_host={{ worker2_ip }}  node_role=worker
+node7 ansible_host={{ worker3_ip }}  node_role=worker
+node8 ansible_host={{ app2_ip }}  node_role=app
+node9 ansible_host={{ report2_ip }}  node_role=report
+node10 ansible_host={{ dl2_ip }}  node_role=dl
+node11 ansible_host={{ db2_ip }}  node_role=db
+node12 ansible_host={{ master2_ip }}  node_role=worker

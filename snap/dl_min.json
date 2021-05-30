@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ansible-master",
+    "zone": "europe-west1-b"
+  },
+  {
+    "name": "as-test-demo",
+    "zone": "europe-west1-b"
+  },
+  {
+    "name": "as-test-loop",
+    "zone": "europe-west1-b"
+  }
+]

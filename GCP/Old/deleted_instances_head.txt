@@ -1,0 +1,6 @@
+Hi, 
+Please see attached the list of terminated instances on GCP.
+
+Thank you,
+Infrastructure Team.
+

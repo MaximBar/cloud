@@ -1,0 +1,77 @@
+---
+insertId: 1wtb57xg21idocg
+jsonPayload:
+  actor:
+    user: maximb@cloudnow.co.il
+  event_subtype: compute.instances.stop
+  event_timestamp_us: '1494830612553478'
+  event_type: GCE_OPERATION_DONE
+  operation:
+    id: '3670398338117989120'
+    name: operation-1494830575582-54f8a5d74fb31-fa0e881a-12414598
+    type: operation
+    zone: us-east1-b
+  resource:
+    id: '6964381389335884770'
+    name: tr-single-maximb-max-stp-tst3
+    type: instance
+    zone: us-east1-b
+  trace_id: operation-1494830575582-54f8a5d74fb31-fa0e881a-12414598
+  version: '1.2'
+labels:
+  compute.googleapis.com/resource_id: '6964381389335884770'
+  compute.googleapis.com/resource_name: tr-single-maximb-max-stp-tst3
+  compute.googleapis.com/resource_type: instance
+  compute.googleapis.com/resource_zone: us-east1-b
+logName: projects/tr-rnd/logs/compute.googleapis.com%2Factivity_log
+receiveTimestamp: '2017-05-15T06:43:32.661113687Z'
+resource:
+  labels:
+    instance_id: '6964381389335884770'
+    project_id: tr-rnd
+    zone: us-east1-b
+  type: gce_instance
+severity: INFO
+timestamp: '2017-05-15T06:43:32.553478Z'
+---
+insertId: 1849n22g1anydlw
+jsonPayload:
+  actor:
+    user: maximb@cloudnow.co.il
+  event_subtype: compute.instances.stop
+  event_timestamp_us: '1494830576120625'
+  event_type: GCE_API_CALL
+  ip_address: ''
+  operation:
+    id: '3670398338117989120'
+    name: operation-1494830575582-54f8a5d74fb31-fa0e881a-12414598
+    type: operation
+    zone: us-east1-b
+  request:
+    body: 'null'
+    url: https://www.googleapis.com/compute/v1/projects/tr-rnd/zones/us-east1-b/instances/tr-single-maximb-max-stp-tst3/stop?alt=json
+  resource:
+    id: '6964381389335884770'
+    name: tr-single-maximb-max-stp-tst3
+    type: instance
+    zone: us-east1-b
+  trace_id: operation-1494830575582-54f8a5d74fb31-fa0e881a-12414598
+  user_agent: google-cloud-sdk gcloud/154.0.1 command/gcloud.compute.instances.stop
+    invocation-id/a742b2cc98a842fa9f73b48888bc3abb environment/None environment-version/None
+    interactive/True python/2.7.13 (Linux 4.10.0-20-generic),gzip(gfe)
+  version: '1.2'
+labels:
+  compute.googleapis.com/resource_id: '6964381389335884770'
+  compute.googleapis.com/resource_name: tr-single-maximb-max-stp-tst3
+  compute.googleapis.com/resource_type: instance
+  compute.googleapis.com/resource_zone: us-east1-b
+logName: projects/tr-rnd/logs/compute.googleapis.com%2Factivity_log
+receiveTimestamp: '2017-05-15T06:42:56.217023272Z'
+resource:
+  labels:
+    instance_id: '6964381389335884770'
+    project_id: tr-rnd
+    zone: us-east1-b
+  type: gce_instance
+severity: INFO
+timestamp: '2017-05-15T06:42:56.120625Z'

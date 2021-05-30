@@ -1,0 +1,28 @@
+Questions about scripts
+
+1. Is this naming convention agreeable upon creating instances/clusters?
+Single: tr-single-hagit-<machine name> #the hagit name is taken from the gmail account
+Cluster: tr-cluster-min-hagit-<machine name>-node-1/2/3...
+
+2. How many tags do you want as parameters?
+Do you want to add static tags to created instances/clusters?
+
+3. When creating an instance/cluster - do you also want to add the creator user as tag? if so, only his name? or email? or msg + email/name...
+
+4. To which servers do you want to add the tags: 'do-not-terminate' and 'do-not-stop'?
+
+5. I see there are 2 .yml files that ansible runs,
+As I'm re-writing everything in Python I want your input on the new suggested scripts for instance/cluster deletion:
+
+Will it be ok if I write 2 scripts,
+one will delete an instance (run via parameter):
+python delete_instance_script.py instance-name
+
+The other will delete clusters via parameter:
+python  delete_cluster_script.py cluster-name
+
+Each script will look 1st if the do-not-delete tag is present.
+
+Do you need anything else regarding those two scripts?
+
+6. Can you explain what exactly the aws-unremovable-inst-mail.py script supposed to do?

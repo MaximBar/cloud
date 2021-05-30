@@ -1,0 +1,399 @@
+
+Setting project to be TR-RND
+Setting region to be us-east1
+Setting Zone to be us-east1-b
+ce-replicator-jagei-28e5737d [u'ce-replicator'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ce-replicator-jagei-28e5737d
+Instance: ce-replicator-jagei-28e5737d Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ce-replicator-jagei-28e5737d
+
+
+ce-replicator-jagei-39d13132 [u'ce-replicator'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ce-replicator-jagei-39d13132
+Instance: ce-replicator-jagei-39d13132 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ce-replicator-jagei-39d13132
+
+
+ce-replicator-jagei-5a427fd7 [u'ce-replicator'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ce-replicator-jagei-5a427fd7
+Instance: ce-replicator-jagei-5a427fd7 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ce-replicator-jagei-5a427fd7
+
+
+ce-replicator-jagei-6577181e [u'ce-replicator'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ce-replicator-jagei-6577181e
+Instance: ce-replicator-jagei-6577181e Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ce-replicator-jagei-6577181e
+
+
+ce-replicator-jagei-b119965b [u'ce-replicator'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ce-replicator-jagei-b119965b
+Instance: ce-replicator-jagei-b119965b Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ce-replicator-jagei-b119965b
+
+
+ce-replicator-jagei-e87536e7 [u'ce-replicator'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ce-replicator-jagei-e87536e7
+Instance: ce-replicator-jagei-e87536e7 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ce-replicator-jagei-e87536e7
+
+
+ce-replicator-jagei-f6e42613 [u'ce-replicator'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ce-replicator-jagei-f6e42613
+Instance: ce-replicator-jagei-f6e42613 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ce-replicator-jagei-f6e42613
+
+
+data-insertion-service [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To data-insertion-service
+Instance: data-insertion-service Tag stopped-on-may-21-2017-at-13-38-26
+Stopping data-insertion-service
+
+
+dev-cluster-min-ci-manager-1 [u'sg-for-instance-i-i-5e28da3d'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-cluster-min-ci-manager-1
+Instance: dev-cluster-min-ci-manager-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-cluster-min-ci-manager-1
+
+
+dev-cluster-min-ci-node-1 [u'default-firewall'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-cluster-min-ci-node-1
+Instance: dev-cluster-min-ci-node-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-cluster-min-ci-node-1
+
+
+dev-cluster-min-ci-node-2 [u'default-firewall'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-cluster-min-ci-node-2
+Instance: dev-cluster-min-ci-node-2 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-cluster-min-ci-node-2
+
+
+dev-cluster-min-ci-node-3 [u'default-firewall'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-cluster-min-ci-node-3
+Instance: dev-cluster-min-ci-node-3 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-cluster-min-ci-node-3
+
+
+dev-cluster-min-ci-rhel-manager-1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-cluster-min-ci-rhel-manager-1
+Instance: dev-cluster-min-ci-rhel-manager-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-cluster-min-ci-rhel-manager-1
+
+
+dev-cluster-min-ci-rhel-node-1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-cluster-min-ci-rhel-node-1
+Instance: dev-cluster-min-ci-rhel-node-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-cluster-min-ci-rhel-node-1
+
+
+dev-cluster-min-ci-rhel-node-2 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-cluster-min-ci-rhel-node-2
+Instance: dev-cluster-min-ci-rhel-node-2 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-cluster-min-ci-rhel-node-2
+
+
+dev-cluster-min-ci-rhel-node-3 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-cluster-min-ci-rhel-node-3
+Instance: dev-cluster-min-ci-rhel-node-3 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-cluster-min-ci-rhel-node-3
+
+
+dev-haim-hdfs-master [u'default-firewall'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-haim-hdfs-master
+Instance: dev-haim-hdfs-master Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-haim-hdfs-master
+
+
+dev-haim-hdfs-slave1 [u'default-firewall'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dev-haim-hdfs-slave1
+Instance: dev-haim-hdfs-slave1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dev-haim-hdfs-slave1
+
+
+dockerregistry [u'sg-for-instance-i-i-23fd0e4f'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To dockerregistry
+Instance: dockerregistry Tag stopped-on-may-21-2017-at-13-38-26
+Stopping dockerregistry
+
+
+ip-172-16-1-101-88cdd51d [u'sg-for-instance-i-i-58e82cb1'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-101-88cdd51d
+Instance: ip-172-16-1-101-88cdd51d Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-101-88cdd51d
+
+
+ip-172-16-1-104-5d0fe40d [u'sg-for-instance-i-i-15a94adf'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-104-5d0fe40d
+Instance: ip-172-16-1-104-5d0fe40d Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-104-5d0fe40d
+
+
+ip-172-16-1-118-us-west-2-compute-internal-1f5b78d5 [u'sg-for-instance-i-i-4b16ab91'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-118-us-west-2-compute-internal-1f5b78d5
+Instance: ip-172-16-1-118-us-west-2-compute-internal-1f5b78d5 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-118-us-west-2-compute-internal-1f5b78d5
+
+
+ip-172-16-1-13-e1b26673 [u'sg-for-instance-i-i-05637059'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-13-e1b26673
+Instance: ip-172-16-1-13-e1b26673 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-13-e1b26673
+
+
+ip-172-16-1-162-us-west-2-compute-internal-b29a01ab [u'sg-for-instance-i-i-f015448d'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-162-us-west-2-compute-internal-b29a01ab
+Instance: ip-172-16-1-162-us-west-2-compute-internal-b29a01ab Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-162-us-west-2-compute-internal-b29a01ab
+
+
+ip-172-16-1-172-0620d245 [u'sg-for-instance-i-i-0b4a4843ab480906a-a0c78f95'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-172-0620d245
+Instance: ip-172-16-1-172-0620d245 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-172-0620d245
+
+
+ip-172-16-1-180-us-west-2-compute-internal-71ccfe1f [u'sg-for-instance-i-i-5995088b'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-180-us-west-2-compute-internal-71ccfe1f
+Instance: ip-172-16-1-180-us-west-2-compute-internal-71ccfe1f Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-180-us-west-2-compute-internal-71ccfe1f
+
+
+ip-172-16-1-20-4b6647f1 [u'sg-for-instance-i-i-0a7e57bff0e19f8a7-00f7268e'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-20-4b6647f1
+Instance: ip-172-16-1-20-4b6647f1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-20-4b6647f1
+
+
+ip-172-16-1-217-eaf43dbd [u'sg-for-instance-i-i-e0104845'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-217-eaf43dbd
+Instance: ip-172-16-1-217-eaf43dbd Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-217-eaf43dbd
+
+
+ip-172-16-1-236-us-west-2-compute-internal-eb7759f0 [u'sg-for-instance-i-i-a18fa63b'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-236-us-west-2-compute-internal-eb7759f0
+Instance: ip-172-16-1-236-us-west-2-compute-internal-eb7759f0 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-236-us-west-2-compute-internal-eb7759f0
+
+
+ip-172-16-1-246-8bbb2f2b [u'sg-for-instance-i-i-0837fdc8'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-246-8bbb2f2b
+Instance: ip-172-16-1-246-8bbb2f2b Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-246-8bbb2f2b
+
+
+ip-172-16-1-31-925dcaa3 [u'sg-for-instance-i-i-0a87f670'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-31-925dcaa3
+Instance: ip-172-16-1-31-925dcaa3 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-31-925dcaa3
+
+
+ip-172-16-1-7-927162b0 [u'sg-for-instance-i-i-12f7be78'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-7-927162b0
+Instance: ip-172-16-1-7-927162b0 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-7-927162b0
+
+
+ip-172-16-1-85-4e53ab5c [u'sg-for-instance-i-i-e528ea3e'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-85-4e53ab5c
+Instance: ip-172-16-1-85-4e53ab5c Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-85-4e53ab5c
+
+
+ip-172-16-1-88-87f97eab [u'sg-for-instance-i-i-2b152363'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To ip-172-16-1-88-87f97eab
+Instance: ip-172-16-1-88-87f97eab Tag stopped-on-may-21-2017-at-13-38-26
+Stopping ip-172-16-1-88-87f97eab
+
+
+jenkins-slave-automation-ubuntu-image [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To jenkins-slave-automation-ubuntu-image
+Instance: jenkins-slave-automation-ubuntu-image Tag stopped-on-may-21-2017-at-13-38-26
+Stopping jenkins-slave-automation-ubuntu-image
+
+
+jenkins-slave-rhel-image [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To jenkins-slave-rhel-image
+Instance: jenkins-slave-rhel-image Tag stopped-on-may-21-2017-at-13-38-26
+Stopping jenkins-slave-rhel-image
+
+
+jenkins-tr-47237b81 [u'sg-jenkins'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To jenkins-tr-47237b81
+Instance: jenkins-tr-47237b81 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping jenkins-tr-47237b81
+
+
+nexus [u'sg-for-instance-i-i-870d8491'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To nexus
+Instance: nexus Tag stopped-on-may-21-2017-at-13-38-26
+Stopping nexus
+
+
+oracle-srv [u'http-server', u'https-server'] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To oracle-srv
+Instance: oracle-srv Tag stopped-on-may-21-2017-at-13-38-26
+Stopping oracle-srv
+
+
+tr-cluster-amit-taller-min-gcp-test5-manager-1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test5-manager-1
+Instance: tr-cluster-amit-taller-min-gcp-test5-manager-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test5-manager-1
+
+
+tr-cluster-amit-taller-min-gcp-test5-node-1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test5-node-1
+Instance: tr-cluster-amit-taller-min-gcp-test5-node-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test5-node-1
+
+
+tr-cluster-amit-taller-min-gcp-test5-node-2 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test5-node-2
+Instance: tr-cluster-amit-taller-min-gcp-test5-node-2 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test5-node-2
+
+
+tr-cluster-amit-taller-min-gcp-test5-node-3 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test5-node-3
+Instance: tr-cluster-amit-taller-min-gcp-test5-node-3 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test5-node-3
+
+
+tr-cluster-amit-taller-min-gcp-test7-manager-1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test7-manager-1
+Instance: tr-cluster-amit-taller-min-gcp-test7-manager-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test7-manager-1
+
+
+tr-cluster-amit-taller-min-gcp-test7-node-1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test7-node-1
+Instance: tr-cluster-amit-taller-min-gcp-test7-node-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test7-node-1
+
+
+tr-cluster-amit-taller-min-gcp-test7-node-2 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test7-node-2
+Instance: tr-cluster-amit-taller-min-gcp-test7-node-2 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test7-node-2
+
+
+tr-cluster-amit-taller-min-gcp-test7-node-3 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test7-node-3
+Instance: tr-cluster-amit-taller-min-gcp-test7-node-3 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test7-node-3
+
+
+tr-cluster-amit-taller-min-gcp-test8-manager-1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test8-manager-1
+Instance: tr-cluster-amit-taller-min-gcp-test8-manager-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test8-manager-1
+
+
+tr-cluster-amit-taller-min-gcp-test8-node-1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test8-node-1
+Instance: tr-cluster-amit-taller-min-gcp-test8-node-1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test8-node-1
+
+
+tr-cluster-amit-taller-min-gcp-test8-node-2 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test8-node-2
+Instance: tr-cluster-amit-taller-min-gcp-test8-node-2 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test8-node-2
+
+
+tr-cluster-amit-taller-min-gcp-test8-node-3 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-cluster-amit-taller-min-gcp-test8-node-3
+Instance: tr-cluster-amit-taller-min-gcp-test8-node-3 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-cluster-amit-taller-min-gcp-test8-node-3
+
+
+tr-single-amit-taller-gcp-test-rhel1 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-single-amit-taller-gcp-test-rhel1
+Instance: tr-single-amit-taller-gcp-test-rhel1 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-single-amit-taller-gcp-test-rhel1
+
+
+tr-single-amit-taller-gcp-test4 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-single-amit-taller-gcp-test4
+Instance: tr-single-amit-taller-gcp-test4 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-single-amit-taller-gcp-test4
+
+
+tr-single-maximb-max-stp-test [u'stopped-on-may-19-2017-at-10-26-30', u'test-tag1'] RUNNING
+Looking for stopped-on tag and removing it
+stopped-on-may-19-2017-at-10-26-30
+Removing Old 'stopped-on' Tag
+removing instance tagtr-single-maximb-max-stp-test Tag: stopped-on-may-19-2017-at-10-26-30
+Adding 'stopped-on' Tag To tr-single-maximb-max-stp-test
+Instance: tr-single-maximb-max-stp-test Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-single-maximb-max-stp-test
+
+
+tr-single-maximb-my-test122 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To tr-single-maximb-my-test122
+Instance: tr-single-maximb-my-test122 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping tr-single-maximb-my-test122
+
+
+amit-test-rhel-image2 [] RUNNING
+Looking for stopped-on tag and removing it
+Adding 'stopped-on' Tag To amit-test-rhel-image2
+Instance: amit-test-rhel-image2 Tag stopped-on-may-21-2017-at-13-38-26
+Stopping amit-test-rhel-image2
+
+

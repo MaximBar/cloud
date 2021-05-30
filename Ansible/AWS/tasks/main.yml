@@ -1,0 +1,12 @@
+---
+
+- include_vars: ~/.aws/aws_config.yml
+
+- include: swarm_cluster.yml
+  when: create_cluster is defined
+
+# - include: add_node.yml
+#   when: add_node is defined
+
+- include: create_instance.yml
+  when: create is defined

@@ -1,0 +1,1102 @@
+[
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2017-04-03T04:59:10.876-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "ansible-master",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1610-yakkety"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ansible-master",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5612646578718214113",
+    "kind": "compute#instance",
+    "machineType": "g1-small",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "ansible-master",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "104.155.110.99",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.11",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/ansible-master",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud-platform"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2016-07-27T06:24:38.644-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "as-test-demo",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "as-test-demo",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1141676505138792697",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "as-test-demo",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.2",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/as-test-demo",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud-platform"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2016-09-13T03:26:40.031-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1404-trusty"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ce-replicator-qjenc-5c818021",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdf",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "mode": "READ_WRITE",
+        "source": "ce-vol-qjenc-60022b1f",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "sdg",
+        "index": 2,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "mode": "READ_WRITE",
+        "source": "ce-vol-qjenc-8f98de68",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7621917251473140400",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "cfNTcEL3YwA=",
+      "items": [
+        {
+          "key": "sshKeys",
+          "value": "claudioc:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLqA4kYgTW9NdyBIinAsWIKjTsH5XPOfDjD/WH8TeqEHdWzwm5FAgMFrWzpjvyF8/zt/49QS14b3dNVz4VyZY4Pfw4vGNIZUZ+INSjOgC+jMItkxRtrT/7bl1Rgt+P7d/CyqoxkPrUNusNTqrWK9g0TJxr6KQ93p0u/n6Rq3W/p844UIP7WBfSypIyK2c4dWfF3FgxkczCE/eeC52IcCVCJ4Mj/ECL3059OKaGAOTk1hGeBfQDjFYddU76ZEu3ihZxRagOhtdAjPzFx9OkEQIjdUmckXtRyFpJg+I40S/ng3urCNpKX5enJO+LkCvisUDsDMtivca7SXYPRLmdwZ4l google-ssh {\"userName\":\"claudioc@cloudnow.co.il\",\"expireOn\":\"2016-12-20T13:13:26+0000\"}\nclaudioc:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHpHTwdrmZ+8fxtbcAmZ33SnXtjghg7bdbhwW8qYXbqWG/bjAz4/al8TdZVHcsyccxeZHpyqHcSF4EIWtlLbag4= google-ssh {\"userName\":\"claudioc@cloudnow.co.il\",\"expireOn\":\"2016-12-20T13:13:16+0000\"}\nubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOOqlPQusNZX1pGg0cXqmKZo1RLIZvYcvg0ynEbA3z/F8EYW1fxDg0XPvjjU9h4wvq0m7RbXlkQNMYJ1fg2ktgnBz9eAxKPFvpGt6/g2pBDMchpV0tPeJeEkrqPAxViMMffamd7S63DvjiX/FQHuXwobMereYp1WkYB/vycxF5Bprp8bVGpFEQMjPBI6WIePS8EU+T+BOTEF8NkEGkW7JhO6tOGO0mYJTOvH04CO/N1gFbj44thuDGRFi5U2sd6Xc9CQbs+o9eOgA8pTtQ/jF3tC3YVwSndnSt0YIgBM9xNl3tMZhTN+nvporvDPRMtRt5TnsFs2VwIMbRw73AUqqt \n"
+        },
+        {
+          "key": "startup-script",
+          "value": "#!/bin/bash\n        wget -O- https://dashboard.cloudendure.com/v11/static/http_commands_client.py | python - https://dashboard.cloudendure.com/v11/ 89118f7015ea95611e178612b113efc0 orot@cloudnow.co.il > /dev/null 2>&1\n        "
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "ce-replicator-qjenc-5c818021",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.4",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/ce-replicator-qjenc-5c818021",
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "O-spkkeHO3Y=",
+      "items": [
+        "ce-replicator"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-04-05T02:01:40.634-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "cloudnow-wiki",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1604-xenial"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cloudnow-wiki",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "6314599394872724635",
+    "kind": "compute#instance",
+    "machineType": "g1-small",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "cloudnow-wiki",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.12",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/cloudnow-wiki",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2016-08-17T05:16:39.869-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "ericom-demo",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/windows-cloud/global/licenses/windows-server-2008-r2-dc"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ericom-demo",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1952826395186555720",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "WR_KWKatbwA=",
+      "items": [
+        {
+          "key": "windows-keys",
+          "value": "{\"email\":\"claudioc@cloudnow.co.il\",\"exponent\":\"AQAB\",\"userName\":\"claudioc\",\"expireOn\":\"2016-08-17T13:37:43.057Z\",\"modulus\":\"lRp6FfVflxoiYauVWbF6lNr/77z5I6sYzWbHjFEoN45rV8/10PAzhat7pMCmUBx5ZuHn9FatBP9jJfyB+P4nkaDSMokI++Je+vRnk0txfQsrXFycitD9CFBlwBGz+EO6m6Vg86fv6T/U5XZ+oILwsbMtC69LbibuZWHca0ubk68MS/IotTH0kOsn6RjPt1BwMWYZ7Im3KXtWB/0l/3o/+TZuXaaEts6p7YoNnMf+/WnNSITdeaohVjecsmSYEh/xL61YaHQBoNQm+DdWWnMXVNryW5wsRE8oyCVZSGjIS/I5eJqr5NZcjyVM5bMtHcY7+F5omiOnxk2G3pnu9rWDLQ\\u003d\\u003d\"}"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "ericom-demo",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.7",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/ericom-demo",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2016-08-16T06:29:51.444-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "ericom-sever",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/windows-cloud/global/licenses/windows-server-2012-r2-dc"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ericom-sever",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1705217501893143456",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-2",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "ericom-sever",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "146.148.114.53",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.5",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/ericom-sever",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2016-08-16T06:07:53.761-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "ftp-test2222",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-7"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ftp-test2222",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "309011294246055622",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "ftp-test2222",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "146.148.8.9",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.6",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/ftp-test2222",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud-platform"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-03-16T06:58:51.905-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "googlee-auth-test",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/windows-cloud/global/licenses/windows-server-2008-r2-dc"
+        ],
+        "mode": "READ_WRITE",
+        "source": "googlee-auth-test",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "327991119753716980",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "WFggS5knyBw=",
+      "items": [
+        {
+          "key": "windows-keys",
+          "value": "{\"email\": \"arielr@cloudnow.co.il\", \"expireOn\": \"2017-03-23T11:19:57Z\", \"exponent\": \"AQAB\", \"modulus\": \"uZJdrAVizlsvDQBcxuDDXCzE8l2EwRQNs9iHfMAylEv5HE4M2A9xHT8CIOn728D1kg1mIduW5RXLtJGCMJR6pmaBJ+v0RS5lHIFn/FurqRzJI6SXJVTIcYjkLDptXK7kQB80uA30SDlmA8iT3AYNgwsbZFjgLn0B7d5G36eAG3fs3hbwydPf+w+6YuZjkFonvRt8DwdVtE1ubIE5S802wXvY3602IC5Ae6Hx4A7KDDf3ETUwym9CET43z2ofk6fRKo61GzaQ30UWpNQpNPME/nrMA6+yGydW7P7ZCHXwPoj/pqd7WAZatEeEyelk7mcP8v46DY52c3Zbk6nmGJxcOw==\", \"userName\": \"arielr\"}"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "googlee-auth-test",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.10",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/googlee-auth-test",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2017-04-25T00:38:02.207-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "max-test",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1610-yakkety"
+        ],
+        "mode": "READ_WRITE",
+        "source": "max-test",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": true,
+        "boot": false,
+        "deviceName": "max-test-disk1",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "mode": "READ_WRITE",
+        "source": "max-test-disk1",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "838637923515712054",
+    "kind": "compute#instance",
+    "machineType": "g1-small",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "max-test",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "35.187.120.117",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.14",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/max-test",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2017-04-25T04:34:47.335-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1610-yakkety"
+        ],
+        "mode": "READ_WRITE",
+        "source": "max-test-maximb-873670",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "persistent-disk-1",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "mode": "READ_WRITE",
+        "source": "max-test-disk1-maximb-873670",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3812357761825671865",
+    "kind": "compute#instance",
+    "machineType": "g1-small",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "max-test-maximb-873670",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "35.189.194.115",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "test",
+        "networkIP": "10.0.10.3",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/test1"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/max-test-maximb-873670",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "3pArz8AVWVY=",
+      "items": [
+        "testtag4",
+        "work-hours-only"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2017-04-25T03:31:56.210-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1610-yakkety"
+        ],
+        "mode": "READ_WRITE",
+        "source": "max-test-maximb-878032",
+        "type": "PERSISTENT"
+      },
+      {
+        "autoDelete": false,
+        "boot": false,
+        "deviceName": "persistent-disk-1",
+        "index": 1,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "mode": "READ_WRITE",
+        "source": "max-test-disk1-maximb-878032",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "501465445838265204",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "max-test-maximb-878032",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "35.187.183.218",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "test",
+        "networkIP": "10.0.10.2",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/test1"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/max-test-maximb-878032",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/pubsub",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "O18DBinNCgI=",
+      "items": [
+        "testtag3"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Unknown CPU Platform",
+    "creationTimestamp": "2017-01-11T05:23:51.096-08:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "moodle-vm-tmpl-boot-disk",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/bitnami-launchpad/global/licenses/bitnami-moodle"
+        ],
+        "mode": "READ_WRITE",
+        "source": "moodle-1-test-vm",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7530279940870868745",
+    "kind": "compute#instance",
+    "machineType": "f1-micro",
+    "metadata": {
+      "fingerprint": "9ZLrzm2Yliw=",
+      "items": [
+        {
+          "key": "bitnami-base-password",
+          "value": "desL1dgh"
+        },
+        {
+          "key": "status-config-url",
+          "value": "https://runtimeconfig.googleapis.com/v1beta1/projects/cloudnow-labs/configs/moodle-1-test-config"
+        },
+        {
+          "key": "status-variable-path",
+          "value": "status"
+        },
+        {
+          "key": "status-uptime-deadline",
+          "value": "420"
+        },
+        {
+          "key": "startup-script",
+          "value": "#!/bin/bash\n\nset -e\n\nDEFAULT_UPTIME_DEADLINE=\"300\"  # 5 minutes\n\nmetadata_value() {\n  curl --retry 5 -sfH \"Metadata-Flavor: Google\" \\\n       \"http://metadata/computeMetadata/v1/$1\"\n}\n\naccess_token() {\n  metadata_value \"instance/service-accounts/default/token\" \\\n  | python -c \"import sys, json; print json.load(sys.stdin)['access_token']\"\n}\n\nuptime_seconds() {\n  seconds=\"$(cat /proc/uptime | cut -d' ' -f1)\"\n  echo ${seconds%%.*}  # delete floating point.\n}\n\nconfig_url() { metadata_value \"instance/attributes/status-config-url\"; }\ninstance_id() { metadata_value \"instance/id\"; }\nvariable_path() { metadata_value \"instance/attributes/status-variable-path\"; }\nproject_name() { metadata_value \"project/project-id\"; }\nuptime_deadline() {\n  metadata_value \"instance/attributes/status-uptime-deadline\" \\\n      || echo $DEFAULT_UPTIME_DEADLINE\n}\n\nconfig_name() {\n  python - $(config_url) <<EOF\nimport sys, urlparse\nparsed = urlparse.urlparse(sys.argv[1])\nprint '/'.join(parsed.path.rstrip('/').split('/')[-4:])\nEOF\n}\n\nvariable_body() {\n  encoded_value=$(echo \"$2\" | base64)\n  printf '{\"name\":\"%s\", \"value\":\"%s\"}\\n' \"$1\" \"$encoded_value\"\n}\n\npost_result() {\n  var_subpath=$1\n  var_value=$2\n  var_path=\"$(config_name)/variables/$var_subpath/$(instance_id)\"\n\n  curl --retry 5 -sH \"Authorization: Bearer $(access_token)\" \\\n      -H \"Content-Type: application/json\" \\\n      -X POST -d \"$(variable_body \"$var_path\" \"$var_value\")\" \\\n      \"$(config_url)/variables\"\n}\n\npost_success() {\n  post_result \"$(variable_path)/success\" \"${1:-Success}\"\n}\n\npost_failure() {\n  post_result \"$(variable_path)/failure\" \"${1:-Failure}\"\n}\n\n# The contents of initScript are contained within this function.\ncustom_init() (\n  return 0\n)\n\n# The contents of checkScript are contained within this function.\ncheck_success() (\n  failed=$(/etc/init.d/bitnami status \\\n      | grep \"not running\" | cut -d\" \" -f1 | tr \"\\n\" \" \")\n  if [ ! -z \"$failed\" ]; then\n    echo \"Processes failed to start: $failed\"\n    exit 1\n  fi\n)\n\ncheck_success_with_retries() {\n  deadline=\"$(uptime_deadline)\"\n  while [ \"$(uptime_seconds)\" -lt \"$deadline\" ]; do\n    message=$(check_success)\n    case $? in\n    0)\n      # Success.\n      return 0\n      ;;\n    1)\n      # Not ready; continue loop\n      ;;\n    *)\n      # Failure; abort.\n      echo $message\n      return 1\n      ;;\n    esac\n\n    sleep 5\n  done\n\n  # The check was not successful within the required deadline.\n  echo \"status check timeout\"\n  return 1\n}\n\ndo_init() {\n  # Run the init script first. If no init script was specified, this\n  # is a no-op.\n  echo \"software-status: initializing...\"\n\n  set +e\n  message=\"$(custom_init)\"\n  result=$?\n  set -e\n\n  if [ $result -ne 0 ]; then\n    echo \"software-status: init failure\"\n    post_failure \"$message\"\n    return 1\n  fi\n}\n\ndo_check() {\n  # Poll for success.\n  echo \"software-status: waiting for software to become ready...\"\n  set +e\n  message=\"$(check_success_with_retries)\"\n  result=$?\n  set -e\n\n  if [ $result -eq 0 ]; then\n    echo \"software-status: success\"\n    post_success\n  else\n    echo \"software-status: failed with message: $message\"\n    post_failure \"$message\"\n  fi\n}\n\n# Run the initialization script synchronously.\ndo_init || exit $?\n\n# The actual software initialization might come after google's init.d\n# script that executes our startup script. Thus, launch this script\n# into the background so that it does not block init and eventually\n# timeout while waiting for software to start.\ndo_check & disown"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "moodle-1-test-vm",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.9",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/moodle-1-test-vm",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/cloudruntimeconfig"
+        ]
+      }
+    ],
+    "status": "TERMINATED",
+    "tags": {
+      "fingerprint": "4515HhdtRYc=",
+      "items": [
+        "moodle-1-test-tcp-443",
+        "moodle-1-test-tcp-80"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2017-03-14T00:26:08.054-07:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "opennms",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-7"
+        ],
+        "mode": "READ_WRITE",
+        "source": "opennms",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4660644262695282144",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "opennms",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "35.187.14.41",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.3",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/opennms",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-b"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Ivy Bridge",
+    "creationTimestamp": "2016-12-04T05:29:00.945-08:00",
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "ofir-mng",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-7"
+        ],
+        "mode": "READ_WRITE",
+        "source": "ofir-mng",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4928248951769507059",
+    "kind": "compute#instance",
+    "machineType": "n1-standard-1",
+    "metadata": {
+      "fingerprint": "ty8AUY97uMI=",
+      "kind": "compute#metadata"
+    },
+    "name": "ofir-mng",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "104.199.36.207",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.132.0.8",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-c/instances/ofir-mng",
+    "serviceAccounts": [
+      {
+        "email": "769195397955-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud-platform"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "6smc4R4d39I=",
+      "items": [
+        "http-server",
+        "https-server"
+      ]
+    },
+    "zone": "europe-west1-c"
+  }
+]

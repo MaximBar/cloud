@@ -1,0 +1,70 @@
+{
+  "canIpForward": false,
+  "cpuPlatform": "Intel Ivy Bridge",
+  "creationTimestamp": "2016-12-04T05:29:00.945-08:00",
+  "description": "",
+  "disks": [
+    {
+      "autoDelete": true,
+      "boot": true,
+      "deviceName": "ofir-mng",
+      "index": 0,
+      "interface": "SCSI",
+      "kind": "compute#attachedDisk",
+      "licenses": [
+        "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-7"
+      ],
+      "mode": "READ_WRITE",
+      "source": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-c/disks/ofir-mng",
+      "type": "PERSISTENT"
+    }
+  ],
+  "id": "4928248951769507059",
+  "kind": "compute#instance",
+  "machineType": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-c/machineTypes/n1-standard-1",
+  "metadata": {
+    "fingerprint": "ty8AUY97uMI=",
+    "kind": "compute#metadata"
+  },
+  "name": "ofir-mng",
+  "networkInterfaces": [
+    {
+      "accessConfigs": [
+        {
+          "kind": "compute#accessConfig",
+          "name": "External NAT",
+          "natIP": "104.199.36.207",
+          "type": "ONE_TO_ONE_NAT"
+        }
+      ],
+      "kind": "compute#networkInterface",
+      "name": "nic0",
+      "network": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/global/networks/default",
+      "networkIP": "10.132.0.8",
+      "subnetwork": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/regions/europe-west1/subnetworks/default-30571b5474eb66e5"
+    }
+  ],
+  "scheduling": {
+    "automaticRestart": true,
+    "onHostMaintenance": "MIGRATE",
+    "preemptible": false
+  },
+  "selfLink": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-c/instances/ofir-mng",
+  "serviceAccounts": [
+    {
+      "email": "769195397955-compute@developer.gserviceaccount.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/cloud-platform"
+      ]
+    }
+  ],
+  "status": "RUNNING",
+  "tags": {
+    "fingerprint": "6smc4R4d39I=",
+    "items": [
+      "http-server",
+      "https-server"
+    ]
+  },
+  "zone": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-c"
+}

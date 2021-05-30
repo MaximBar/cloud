@@ -1,0 +1,50 @@
+
+GCE instance backup:
+
+1. From each disk, create snapshot
+2. Create disk from snapshot
+3. create image from disk
+4. create template from image
+
+
+gce_pd
+http://docs.ansible.com/ansible/gce_pd_module.html
+
+create disks from images
+
+---------------------------------------------------
+
+1. images for boot disk
+2. snapshot of second disk
+
+script:
+tag name
+zone
+image name
+subnetwork name
+
+
+create instance from image
+check image for snapshots
+if 2nd image, connect disk
+
+check who runs the script = name
+disk1. disk2
+# snapshot two-diisk-disk1
+# max-test
+# max-test-disk1
+
+
+# nightly shutdown
+script searches for tag 'shut' and terminates the machine
+after shutdown change tag
+----------------------------------------------------------------------------------
+prosedure
+
+1. create snapshot of os disk and disk1 of the vm machine
+2. create disk  from os disk
+3. create image  from os disk
+4. delete os disk and os snapshot
+
+user: ubuntu
+ec2-user

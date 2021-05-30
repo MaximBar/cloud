@@ -1,0 +1,92 @@
+[
+  {
+    "insertId": "p93vpng20oivjv",
+    "jsonPayload": {
+      "actor": {
+        "user": "maximb@cloudnow.co.il"
+      },
+      "event_subtype": "compute.instances.stop",
+      "event_timestamp_us": "1492602624048793",
+      "event_type": "GCE_OPERATION_DONE",
+      "operation": {
+        "id": "5728492541160648717",
+        "name": "operation-1492602594906-54d839f75cf91-52983733-87978d8b",
+        "type": "operation",
+        "zone": "europe-west1-b"
+      },
+      "resource": {
+        "id": "1952826395186555720",
+        "name": "ericom-demo",
+        "type": "instance",
+        "zone": "europe-west1-b"
+      },
+      "trace_id": "operation-1492602594906-54d839f75cf91-52983733-87978d8b",
+      "version": "1.2"
+    },
+    "labels": {
+      "compute.googleapis.com/resource_id": "1952826395186555720",
+      "compute.googleapis.com/resource_name": "ericom-demo",
+      "compute.googleapis.com/resource_type": "instance",
+      "compute.googleapis.com/resource_zone": "europe-west1-b"
+    },
+    "logName": "projects/cloudnow-labs/logs/compute.googleapis.com%2Factivity_log",
+    "resource": {
+      "labels": {
+        "instance_id": "1952826395186555720",
+        "project_id": "cloudnow-labs",
+        "zone": "europe-west1-b"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "timestamp": "2017-04-19T11:50:24.048793Z"
+  },
+  {
+    "insertId": "6tfyg3mrx4x4",
+    "jsonPayload": {
+      "actor": {
+        "user": "maximb@cloudnow.co.il"
+      },
+      "event_subtype": "compute.instances.stop",
+      "event_timestamp_us": "1492602595211344",
+      "event_type": "GCE_API_CALL",
+      "ip_address": "",
+      "operation": {
+        "id": "5728492541160648717",
+        "name": "operation-1492602594906-54d839f75cf91-52983733-87978d8b",
+        "type": "operation",
+        "zone": "europe-west1-b"
+      },
+      "request": {
+        "body": "null",
+        "url": "https://www.googleapis.com/compute/v1/projects/cloudnow-labs/zones/europe-west1-b/instances/ericom-demo/stop?key=AIzaSyCgxnNGJFOtw9DF3eySks0uRxQ3SiQW2jA"
+      },
+      "resource": {
+        "id": "1952826395186555720",
+        "name": "ericom-demo",
+        "type": "instance",
+        "zone": "europe-west1-b"
+      },
+      "trace_id": "operation-1492602594906-54d839f75cf91-52983733-87978d8b",
+      "user_agent": "Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.22.0-SNAPSHOT (gzip)",
+      "version": "1.2"
+    },
+    "labels": {
+      "compute.googleapis.com/resource_id": "1952826395186555720",
+      "compute.googleapis.com/resource_name": "ericom-demo",
+      "compute.googleapis.com/resource_type": "instance",
+      "compute.googleapis.com/resource_zone": "europe-west1-b"
+    },
+    "logName": "projects/cloudnow-labs/logs/compute.googleapis.com%2Factivity_log",
+    "resource": {
+      "labels": {
+        "instance_id": "1952826395186555720",
+        "project_id": "cloudnow-labs",
+        "zone": "europe-west1-b"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "INFO",
+    "timestamp": "2017-04-19T11:49:55.211344Z"
+  }
+]

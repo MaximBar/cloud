@@ -1,0 +1,40 @@
+New:
+
+
+
+
+single:
+add name-suffix parameter when running the script
+
+
+print("Syntax is: python tr_create_single.py name-suffix image  zone machine-size subnetwork 'do not stop(yes/no)' 'do not delete(yes/no)'")
+print("Example: python tr_create_single.py my-test grc-new2   us-east1-b n1-standard-2 rnd-subnet yes no")
+
+instance_name = "tr-single-" + str(account) + "-" + str(name-suffix)
+
+node-type instead of machine type. single/cluster
+remove single from parameters when running the script
+
+check how to use python return/print with ansible registry ansible: register . try set fact. (for grepping IP)
+
+
+cluster:
+print("Syntax is: python tr_create_cluster.py name-suffix image zone machine-size subnetwork 'do not stop(yes/no)' 'do not delete(yes/no)' deploy-type node-number(1-9)")
+print("Example: python tr_create_cluster.py my-test grc-new2 us-east1-b n1-standard-2 rnd-subnet yes no min 1")
+
+add name-suffix
+remove cluster from parameters when running the script
+
+Node names:
+
+full name = tr-cluster-min-maxtestsuffix-manager-1
+with cluster I get one param deploy-mode-name-suffix-manager/node-1/2/3
+min-namesuffix-manager-1
+
+add tr-cluster- and account name to this param
+tr-cluster-hagit-zamir-min-namesuffix-manager-1
+
+print("Syntax is: python tr_create_cluster.py instance-name image zone machine-size subnetwork 'do not stop(yes/no)' 'do not delete(yes/no)'")
+print("Example: python tr_create_cluster.py my-test min-namesuffix-manager-1 us-east1-b n1-standard-2 rnd-subnet yes no")
+
+

@@ -1,0 +1,16 @@
+aws_image: "{{ aws_image }}"
+aws_instance_type: m3.large
+aws_region: us-west-2
+aws_zone: a
+aws_security_group: default-docker-machine
+aws_vpc_subnet: subnet-b19b6bc6
+aws_tag_name_prefix: "{{ machine_prefix }}-{{ owner }}"
+aws_keypair: tr-key
+aws_os: ubuntu
+
+ec2_tag_WorkHours: "Yes"
+
+num_of_managers: 1
+num_of_nodes: 3
+
+deploy_mode: min
